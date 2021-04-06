@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(233, 184, 120);
+    padding: 0px;
+    margin: 0px;
+}
+.mainContainerHeader{
+    display: flex;
+    align-items: center;
+    background-color:rgb(118, 193, 243);
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+}
+.box1{
+    flex: 1;
+}
+.box2{
+    flex: 1;
+}
+.box3{
+    flex: 1;
+}
+.linkBlank{
+    color: black;
+}
+/* ----------------------------------------navbar-------------------------------------------------- */
+.topnav {
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(102, 101, 101);
+  }
+
+  .topnav a {
+    flex:1;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: rgb(102, 101, 101);
+    color: white;
+  }
+/* ----------------------------------------navbar-------------------------------------------------- */
+/* ----------------------------------------Header-------------------------------------------------- */
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listMenu{
+    font-family: 'Lobster', cursive;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+.fullName{
+    font-family: 'Lobster', cursive;
+    padding: 0px;
+    margin:0px;
+    font-size: 40px;
+    flex: 1;
+}
+.initials{
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-size: 75px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    flex: 1;
+}
+.iconText{
+    margin: 0px;
+    flex: 1;
+    align-items: center;
+}
+.iconContainer{
+    display: flex;
+    font-family: 'Lobster', cursive;
+    margin-right: 20px;
+    flex-direction: column;
+}
+.imgIcon{
+    height: 75px;
+    width: auto;
+}
+.imgIconMenu{
+    height: 50px;
+    width: auto;
+}
+/* ----------------------------------------Header--------------------------------------------------- */
+/* ----------------------------------------Body----------------------------------------------------- */
+.textBody{
+    display: flex;
+    justify-content: center;
+
+}
+.mainContainerBlogColumn{
+    display: flex;
+    flex-direction: column;
+}
+.mainContainerBlogRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mainContainerNewBlogColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+    border-radius: 25px;
+    width: 40vh;
+}
+.blogContainerNew{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+    border-radius: 25px;
+    width: 65vh;
+    margin-bottom: 3vh;
+}
+.blogImgContainer{
+    flex: 1;
+}
+.imgFit{
+    height: 20vh;
+    }
+.imgFitLatest{
+    height: 40vh;
+}
+.blogTxtContainer{
+    padding: 15px;
+    flex: 1;
+    font-size: 2vh;
+}
+.checked {
+    color: rgb(175, 25, 75);
+  }
+.fab{
+    font-size: 4vh;
+}
+/* ----------------------------------------Body----------------------------------------------------- */
