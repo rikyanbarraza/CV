@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/CSS/News.css">
     <link rel="shortcut icon" href="/MEDIA/Ico/favicon4.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/09393d01ed.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <title>Victor Barraza</title>
@@ -35,22 +37,30 @@
                 <a href="https://www.linkedin.com/in/victor-barraza"><img class="imgIcon" src="/MEDIA/Icon/linkedIn.png" alt=""></a>
             </div>
         </div>
+        <button class="ham">
+            <span class="menuIcon material-icons">
+              menu
+            </span>
+            <span class="xIcon material-icons">
+              close
+            </span>
+          </button>
+          <ul class="menu">
+            <li><a class="menuLink" href="/index.html">Home</a></li>
+            <li><a class="menuLink" href="/HTML/news.html">News</a></li>
+            <li><a class="menuLink" href="/HTML/blog.html">Blog</a></li>
+            <li><a class="menuLink" href="/HTML/aboutMe.html">About me</a></li>
+          </ul>
     </div>
-    <div class="topnav">
-        <a class="active" href="/index.html">Home</a>
-        <a href="/HTML/news.html">News</a>
-        <a href="/HTML/blog.html">Blog</a>
-        <a href="/HTML/aboutMe.html">About Me</a>
-      </div>
 </header>
 <div class="mainContainerBody">
     <div class="conatinerColumn">
         <div class="textContainerBodyStart">
-            <h1>Good to know news!</h1>
+           <br><h1><u>Good to know news!</u></h1><br>
         </div>
         <div class="textContainerBody">
-            <h2><u>Web development on a Chrome OS</u></h2>
-            <img class="imgFit" src="/MEDIA/News/Asus Chromebook C523.jpg" alt="">
+            <br><h2><u>Web development on a Chrome OS</u></h2><br>
+            <img class="imgFit" src="/MEDIA/News/Asus Chromebook C523.jpg" alt=""><br>
             <p>You can do basic web development in chromebooks togheter with the built in linux! <br>
             A cheap and great way if you don't have the economy or for emergencies. <br>
             The speed in the model C523 I have is more then fair to get in to web development. <br>
@@ -65,5 +75,6 @@
 </div>
 <footer>
 </footer>
+<script src="/JS/Logic.js"></script>
 </body>
 </html>
